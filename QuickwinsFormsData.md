@@ -2,7 +2,8 @@
 **Produced by Dave Lusty**
 
 # Introduction
-This demo shows how you can use a simple HTML form stored in Blob storage to submit data and store it as JSON (or any other format) in Logic Apps. This is useful for when you need to collect a tiny piece of data that you don't currenlty have in a database. A great alternative would also be PowerApps, but this method is simple and many people already know HTML and possibly Javascript so this concept will be handy for your toolkit.
+This demo shows how you can use a simple HTML form stored in Blob storage to submit data and store it as JSON (or any other format) in Logic Apps. This is useful for when you need to collect a tiny piece of data that you don't currenlty have in a database. A great alternative would also be PowerApps, but this method is simple and many people already know HTML and possibly Javascript so this concept will be handy for your toolkit. 
+You can find the [video demo here](https://youtu.be/PGnwvwJKs4g)
 
 # Website
 For this demo we need a very simple website. When i say simple I mean a single HTML page with a single form on it. This will be used to submit our data which the Logic App will store to Blob Storage, or we could just as easily insert into Azure SQL DB or Cosmos DB with the same technique.
